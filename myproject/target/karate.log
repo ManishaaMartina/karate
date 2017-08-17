@@ -1,0 +1,443 @@
+12:18:46.685 [main] DEBUG c.i.karate.cucumber.CucumberRunner - init test class: class examples.ExamplesTest
+12:18:47.638 [main] DEBUG c.i.karate.cucumber.CucumberRunner - loading feature: /D:/karate/myproject/target/test-classes/examples/employee/employees.feature
+12:18:51.803 [main] INFO  com.intuit.karate - karate.env system property was: null 
+12:20:58.473 [main] DEBUG c.i.karate.cucumber.CucumberRunner - init test class: class examples.ExamplesTest
+12:24:48.299 [main] DEBUG c.i.karate.cucumber.CucumberRunner - init test class: class examples.ExamplesTest
+12:24:48.712 [main] DEBUG c.i.karate.cucumber.CucumberRunner - loading feature: /D:/karate/myproject/target/test-classes/examples/employee/employees.feature
+12:24:51.098 [main] WARN  com.intuit.karate - no var found with name: response
+12:24:51.113 [main] WARN  com.intuit.karate - not a js function or feature file: read('classpath:karate-config.js') - [type: NULL, value: null]
+12:29:53.535 [main] DEBUG c.i.karate.cucumber.CucumberRunner - init test class: class examples.ExamplesTest
+12:29:53.814 [main] DEBUG c.i.karate.cucumber.CucumberRunner - loading feature: /D:/karate/myproject/target/test-classes/examples/employee/employees.feature
+12:29:55.236 [main] WARN  com.intuit.karate - no var found with name: response
+12:29:55.236 [main] WARN  com.intuit.karate - not a js function or feature file: read('classpath:karate-config.js') - [type: NULL, value: null]
+12:31:14.309 [main] DEBUG c.i.karate.cucumber.CucumberRunner - init test class: class examples.ExamplesTest
+12:31:14.577 [main] DEBUG c.i.karate.cucumber.CucumberRunner - loading feature: /D:/karate/myproject/target/test-classes/examples/employee/employees.feature
+12:31:19.039 [main] DEBUG com.intuit.karate - 
+1 > POST http://localhost:8080/employees
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 120
+1 > Content-Type: application/json
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+{"address":"chennai","designation":"software eng.","email":"john@john.com","empname":"JOHN","id":0,"phone":"1234567890"}
+
+12:31:22.105 [main] DEBUG com.intuit.karate - 
+1 < 200
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Thu, 17 Aug 2017 07:01:22 GMT
+1 < Transfer-Encoding: chunked
+{"id":6,"empname":"JOHN","designation":"software eng.","email":"john@john.com","phone":"1234567890","address":"chennai"}
+
+12:31:22.154 [main] DEBUG com.intuit.karate - response time in milliseconds: 5689
+12:35:37.929 [main] DEBUG c.i.karate.cucumber.CucumberRunner - init test class: class examples.ExamplesTest
+12:35:38.329 [main] DEBUG c.i.karate.cucumber.CucumberRunner - loading feature: /D:/karate/myproject/target/test-classes/examples/employee/employees.feature
+12:35:40.899 [main] DEBUG com.intuit.karate - 
+1 > POST http://localhost:8080/employees
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 120
+1 > Content-Type: application/json
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+{"address":"chennai","designation":"software eng.","email":"john@john.com","empname":"JOHN","id":0,"phone":"1234567890"}
+
+12:35:40.951 [main] DEBUG com.intuit.karate - 
+1 < 200
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Thu, 17 Aug 2017 07:05:40 GMT
+1 < Transfer-Encoding: chunked
+{"id":7,"empname":"JOHN","designation":"software eng.","email":"john@john.com","phone":"1234567890","address":"chennai"}
+
+12:35:40.956 [main] DEBUG com.intuit.karate - response time in milliseconds: 898
+12:35:41.190 [main] DEBUG com.intuit.karate - 
+1 > GET http://localhost:8080/employees/4
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+
+12:35:41.528 [main] DEBUG com.intuit.karate - 
+1 < 200
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Thu, 17 Aug 2017 07:05:40 GMT
+1 < Transfer-Encoding: chunked
+{"id":4,"empname":"santhi","designation":"manager","email":"santhi@gmail.com","phone":"456788","address":"salem"}
+
+12:35:41.528 [main] DEBUG com.intuit.karate - response time in milliseconds: 369
+12:37:55.307 [main] DEBUG c.i.karate.cucumber.CucumberRunner - init test class: class examples.ExamplesTest
+12:37:55.718 [main] DEBUG c.i.karate.cucumber.CucumberRunner - loading feature: /D:/karate/myproject/target/test-classes/examples/employee/employees.feature
+12:37:58.695 [main] DEBUG com.intuit.karate - 
+1 > POST http://localhost:8080/employees
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 120
+1 > Content-Type: application/json
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+{"address":"chennai","designation":"software eng.","email":"john@john.com","empname":"JOHN","id":0,"phone":"1234567890"}
+
+12:37:58.759 [main] DEBUG com.intuit.karate - 
+1 < 200
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Thu, 17 Aug 2017 07:07:58 GMT
+1 < Transfer-Encoding: chunked
+{"id":8,"empname":"JOHN","designation":"software eng.","email":"john@john.com","phone":"1234567890","address":"chennai"}
+
+12:37:58.759 [main] DEBUG com.intuit.karate - response time in milliseconds: 1431
+12:37:59.082 [main] DEBUG com.intuit.karate - 
+1 > GET http://localhost:8080/employees/4
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+
+12:37:59.097 [main] DEBUG com.intuit.karate - 
+1 < 200
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Thu, 17 Aug 2017 07:07:58 GMT
+1 < Transfer-Encoding: chunked
+{"id":4,"empname":"santhi","designation":"manager","email":"santhi@gmail.com","phone":"456788","address":"salem"}
+
+12:37:59.097 [main] DEBUG com.intuit.karate - response time in milliseconds: 15
+12:37:59.251 [main] DEBUG com.intuit.karate - 
+1 > POST http://localhost:8080/employees/4
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 133
+1 > Content-Type: application/json
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+{"address":"coimbatore","designation":"sr. software eng.","email":"john2@john.com","empname":"JOHN BOSE","id":0,"phone":"9876543210"}
+
+12:38:00.523 [main] DEBUG com.intuit.karate - 
+1 < 405
+1 < Allow: PUT, GET, DELETE
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Thu, 17 Aug 2017 07:08:00 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":1502953680430,"status":405,"error":"Method Not Allowed","exception":"org.springframework.web.HttpRequestMethodNotSupportedException","message":"Request method 'POST' not supported","path":"/employees/4"}
+
+12:38:00.539 [main] DEBUG com.intuit.karate - response time in milliseconds: 1290
+12:38:00.539 [main] ERROR com.intuit.karate - status code was: 405, expected: 200, response time: 1290, url: http://localhost:8080/employees/4, response: {"timestamp":1502953680430,"status":405,"error":"Method Not Allowed","exception":"org.springframework.web.HttpRequestMethodNotSupportedException","message":"Request method 'POST' not supported","path":"/employees/4"}
+12:39:22.585 [main] DEBUG c.i.karate.cucumber.CucumberRunner - init test class: class examples.ExamplesTest
+12:39:22.916 [main] DEBUG c.i.karate.cucumber.CucumberRunner - loading feature: /D:/karate/myproject/target/test-classes/examples/employee/employees.feature
+12:39:25.453 [main] DEBUG com.intuit.karate - 
+1 > POST http://localhost:8080/employees
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 120
+1 > Content-Type: application/json
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+{"address":"chennai","designation":"software eng.","email":"john@john.com","empname":"JOHN","id":0,"phone":"1234567890"}
+
+12:39:25.521 [main] DEBUG com.intuit.karate - 
+1 < 200
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Thu, 17 Aug 2017 07:09:25 GMT
+1 < Transfer-Encoding: chunked
+{"id":9,"empname":"JOHN","designation":"software eng.","email":"john@john.com","phone":"1234567890","address":"chennai"}
+
+12:39:25.525 [main] DEBUG com.intuit.karate - response time in milliseconds: 915
+12:39:25.711 [main] DEBUG com.intuit.karate - 
+1 > GET http://localhost:8080/employees/4
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+
+12:39:25.725 [main] DEBUG com.intuit.karate - 
+1 < 200
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Thu, 17 Aug 2017 07:09:25 GMT
+1 < Transfer-Encoding: chunked
+{"id":4,"empname":"santhi","designation":"manager","email":"santhi@gmail.com","phone":"456788","address":"salem"}
+
+12:39:25.726 [main] DEBUG com.intuit.karate - response time in milliseconds: 17
+12:39:25.881 [main] DEBUG com.intuit.karate - 
+1 > POST http://localhost:8080/employees/4
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 133
+1 > Content-Type: application/json
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+{"address":"coimbatore","designation":"sr. software eng.","email":"john2@john.com","empname":"JOHN BOSE","id":0,"phone":"9876543210"}
+
+12:39:25.905 [main] DEBUG com.intuit.karate - 
+1 < 405
+1 < Allow: PUT, GET, DELETE
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Thu, 17 Aug 2017 07:09:25 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":1502953765892,"status":405,"error":"Method Not Allowed","exception":"org.springframework.web.HttpRequestMethodNotSupportedException","message":"Request method 'POST' not supported","path":"/employees/4"}
+
+12:39:25.906 [main] DEBUG com.intuit.karate - response time in milliseconds: 26
+12:41:16.866 [main] DEBUG c.i.karate.cucumber.CucumberRunner - init test class: class examples.ExamplesTest
+12:41:17.257 [main] DEBUG c.i.karate.cucumber.CucumberRunner - loading feature: /D:/karate/myproject/target/test-classes/examples/employee/employees.feature
+12:41:19.766 [main] DEBUG com.intuit.karate - 
+1 > POST http://localhost:8080/employees
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 120
+1 > Content-Type: application/json
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+{"address":"chennai","designation":"software eng.","email":"john@john.com","empname":"JOHN","id":0,"phone":"1234567890"}
+
+12:41:19.859 [main] DEBUG com.intuit.karate - 
+1 < 200
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Thu, 17 Aug 2017 07:11:19 GMT
+1 < Transfer-Encoding: chunked
+{"id":10,"empname":"JOHN","designation":"software eng.","email":"john@john.com","phone":"1234567890","address":"chennai"}
+
+12:41:19.863 [main] DEBUG com.intuit.karate - response time in milliseconds: 956
+12:41:20.160 [main] DEBUG com.intuit.karate - 
+1 > GET http://localhost:8080/employees/4
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+
+12:41:20.202 [main] DEBUG com.intuit.karate - 
+1 < 200
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Thu, 17 Aug 2017 07:11:19 GMT
+1 < Transfer-Encoding: chunked
+{"id":4,"empname":"santhi","designation":"manager","email":"santhi@gmail.com","phone":"456788","address":"salem"}
+
+12:41:20.203 [main] DEBUG com.intuit.karate - response time in milliseconds: 44
+12:41:20.368 [main] DEBUG com.intuit.karate - 
+1 > POST http://localhost:8080/employees/4
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 133
+1 > Content-Type: application/json
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+{"address":"coimbatore","designation":"sr. software eng.","email":"john2@john.com","empname":"JOHN BOSE","id":0,"phone":"9876543210"}
+
+12:41:20.385 [main] DEBUG com.intuit.karate - 
+1 < 405
+1 < Allow: PUT, GET, DELETE
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Thu, 17 Aug 2017 07:11:19 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":1502953880382,"status":405,"error":"Method Not Allowed","exception":"org.springframework.web.HttpRequestMethodNotSupportedException","message":"Request method 'POST' not supported","path":"/employees/4"}
+
+12:41:20.386 [main] DEBUG com.intuit.karate - response time in milliseconds: 20
+12:42:53.941 [main] DEBUG c.i.karate.cucumber.CucumberRunner - init test class: class examples.ExamplesTest
+12:42:54.270 [main] DEBUG c.i.karate.cucumber.CucumberRunner - loading feature: /D:/karate/myproject/target/test-classes/examples/employee/employees.feature
+12:42:56.828 [main] DEBUG com.intuit.karate - 
+1 > POST http://localhost:8080/employees
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 120
+1 > Content-Type: application/json
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+{"address":"chennai","designation":"software eng.","email":"john@john.com","empname":"JOHN","id":0,"phone":"1234567890"}
+
+12:42:56.891 [main] DEBUG com.intuit.karate - 
+1 < 200
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Thu, 17 Aug 2017 07:12:56 GMT
+1 < Transfer-Encoding: chunked
+{"id":11,"empname":"JOHN","designation":"software eng.","email":"john@john.com","phone":"1234567890","address":"chennai"}
+
+12:42:56.895 [main] DEBUG com.intuit.karate - response time in milliseconds: 864
+12:42:57.120 [main] DEBUG com.intuit.karate - 
+1 > GET http://localhost:8080/employees/4
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+
+12:42:57.139 [main] DEBUG com.intuit.karate - 
+1 < 200
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Thu, 17 Aug 2017 07:12:56 GMT
+1 < Transfer-Encoding: chunked
+{"id":4,"empname":"santhi","designation":"manager","email":"santhi@gmail.com","phone":"456788","address":"salem"}
+
+12:42:57.140 [main] DEBUG com.intuit.karate - response time in milliseconds: 23
+12:42:57.350 [main] DEBUG com.intuit.karate - 
+1 > POST http://localhost:8080/employees/4
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 133
+1 > Content-Type: application/json
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+{"address":"coimbatore","designation":"sr. software eng.","email":"john2@john.com","empname":"JOHN BOSE","id":0,"phone":"9876543210"}
+
+12:42:57.366 [main] DEBUG com.intuit.karate - 
+1 < 405
+1 < Allow: PUT, GET, DELETE
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Thu, 17 Aug 2017 07:12:56 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":1502953977366,"status":405,"error":"Method Not Allowed","exception":"org.springframework.web.HttpRequestMethodNotSupportedException","message":"Request method 'POST' not supported","path":"/employees/4"}
+
+12:42:57.366 [main] DEBUG com.intuit.karate - response time in milliseconds: 16
+12:45:23.616 [main] DEBUG c.i.karate.cucumber.CucumberRunner - init test class: class examples.ExamplesTest
+12:45:23.923 [main] DEBUG c.i.karate.cucumber.CucumberRunner - loading feature: /D:/karate/myproject/target/test-classes/examples/employee/employees.feature
+12:45:26.512 [main] DEBUG com.intuit.karate - 
+1 > POST http://localhost:8080/employees
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 120
+1 > Content-Type: application/json
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+{"address":"chennai","designation":"software eng.","email":"john@john.com","empname":"JOHN","id":0,"phone":"1234567890"}
+
+12:45:26.585 [main] DEBUG com.intuit.karate - 
+1 < 200
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Thu, 17 Aug 2017 07:15:26 GMT
+1 < Transfer-Encoding: chunked
+{"id":12,"empname":"JOHN","designation":"software eng.","email":"john@john.com","phone":"1234567890","address":"chennai"}
+
+12:45:26.589 [main] DEBUG com.intuit.karate - response time in milliseconds: 871
+12:45:26.768 [main] DEBUG com.intuit.karate - 
+1 > GET http://localhost:8080/employees/4
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+
+12:45:26.808 [main] DEBUG com.intuit.karate - 
+1 < 200
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Thu, 17 Aug 2017 07:15:26 GMT
+1 < Transfer-Encoding: chunked
+{"id":4,"empname":"santhi","designation":"manager","email":"santhi@gmail.com","phone":"456788","address":"salem"}
+
+12:45:26.808 [main] DEBUG com.intuit.karate - response time in milliseconds: 41
+12:45:26.942 [main] DEBUG com.intuit.karate - 
+1 > PUT http://localhost:8080/employees/4
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 133
+1 > Content-Type: application/json
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+{"address":"coimbatore","designation":"sr. software eng.","email":"john2@john.com","empname":"JOHN BOSE","id":0,"phone":"9876543210"}
+
+12:45:27.235 [main] DEBUG com.intuit.karate - 
+1 < 200
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Thu, 17 Aug 2017 07:15:26 GMT
+1 < Transfer-Encoding: chunked
+{"id":4,"empname":"JOHN BOSE","designation":"sr. software eng.","email":"john2@john.com","phone":"9876543210","address":"coimbatore"}
+
+12:45:27.235 [main] DEBUG com.intuit.karate - response time in milliseconds: 294
+12:48:16.519 [main] DEBUG c.i.karate.cucumber.CucumberRunner - init test class: class examples.ExamplesTest
+12:48:16.837 [main] DEBUG c.i.karate.cucumber.CucumberRunner - loading feature: /D:/karate/myproject/target/test-classes/examples/employee/employees.feature
+12:48:19.317 [main] DEBUG com.intuit.karate - 
+1 > POST http://localhost:8080/employees
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 120
+1 > Content-Type: application/json
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+{"address":"chennai","designation":"software eng.","email":"john@john.com","empname":"JOHN","id":0,"phone":"1234567890"}
+
+12:48:19.381 [main] DEBUG com.intuit.karate - 
+1 < 200
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Thu, 17 Aug 2017 07:18:19 GMT
+1 < Transfer-Encoding: chunked
+{"id":13,"empname":"JOHN","designation":"software eng.","email":"john@john.com","phone":"1234567890","address":"chennai"}
+
+12:48:19.386 [main] DEBUG com.intuit.karate - response time in milliseconds: 885
+12:48:19.582 [main] DEBUG com.intuit.karate - 
+1 > GET http://localhost:8080/employees/4
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+
+12:48:19.633 [main] DEBUG com.intuit.karate - 
+1 < 200
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Thu, 17 Aug 2017 07:18:19 GMT
+1 < Transfer-Encoding: chunked
+{"id":4,"empname":"JOHN BOSE","designation":"sr. software eng.","email":"john2@john.com","phone":"9876543210","address":"coimbatore"}
+
+12:48:19.633 [main] DEBUG com.intuit.karate - response time in milliseconds: 54
+12:48:19.834 [main] DEBUG com.intuit.karate - 
+1 > PUT http://localhost:8080/employees/3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 133
+1 > Content-Type: application/json
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+{"address":"coimbatore","designation":"sr. software eng.","email":"john2@john.com","empname":"JOHN BOSE","id":0,"phone":"9876543210"}
+
+12:48:19.872 [main] DEBUG com.intuit.karate - 
+1 < 200
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Thu, 17 Aug 2017 07:18:19 GMT
+1 < Transfer-Encoding: chunked
+{"id":3,"empname":"JOHN BOSE","designation":"sr. software eng.","email":"john2@john.com","phone":"9876543210","address":"coimbatore"}
+
+12:48:19.872 [main] DEBUG com.intuit.karate - response time in milliseconds: 39
+13:03:36.000 [main] DEBUG c.i.karate.cucumber.CucumberRunner - init test class: class examples.ExamplesTest
+13:03:36.284 [main] DEBUG c.i.karate.cucumber.CucumberRunner - loading feature: /D:/karate/myproject/target/test-classes/examples/employee/employees.feature
+13:03:38.638 [main] DEBUG com.intuit.karate - 
+1 > GET http://localhost:8080/employees/4
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+
+13:03:38.856 [main] DEBUG com.intuit.karate - 
+1 < 200
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Thu, 17 Aug 2017 07:33:38 GMT
+1 < Transfer-Encoding: chunked
+{"id":4,"empname":"JOHN BOSE","designation":"sr. software eng.","email":"john2@john.com","phone":"9876543210","address":"coimbatore"}
+
+13:03:38.856 [main] DEBUG com.intuit.karate - response time in milliseconds: 938
+13:03:39.126 [main] DEBUG com.intuit.karate - 
+1 > PUT http://localhost:8080/employees/3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 133
+1 > Content-Type: application/json
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+{"address":"coimbatore","designation":"sr. software eng.","email":"john2@john.com","empname":"JOHN BOSE","id":0,"phone":"9876543210"}
+
+13:03:39.142 [main] DEBUG com.intuit.karate - 
+1 < 200
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Thu, 17 Aug 2017 07:33:38 GMT
+1 < Transfer-Encoding: chunked
+{"id":3,"empname":"JOHN BOSE","designation":"sr. software eng.","email":"john2@john.com","phone":"9876543210","address":"coimbatore"}
+
+13:03:39.142 [main] DEBUG com.intuit.karate - response time in milliseconds: 16
+13:03:39.266 [main] DEBUG com.intuit.karate - 
+1 > POST http://localhost:8080/employees
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 124
+1 > Content-Type: application/json
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+{"address":"karur","designation":"software eng.","email":"brighty@john.com","empname":"brighty","id":0,"phone":"1234567890"}
+
+13:03:39.306 [main] DEBUG com.intuit.karate - 
+1 < 200
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Thu, 17 Aug 2017 07:33:38 GMT
+1 < Transfer-Encoding: chunked
+{"id":14,"empname":"brighty","designation":"software eng.","email":"brighty@john.com","phone":"1234567890","address":"karur"}
+
+13:03:39.306 [main] DEBUG com.intuit.karate - response time in milliseconds: 42
